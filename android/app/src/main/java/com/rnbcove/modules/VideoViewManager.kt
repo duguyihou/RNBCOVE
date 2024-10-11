@@ -20,6 +20,7 @@ class VideoViewManager: SimpleViewManager<VideoView>() {
     @ReactProp(name = "source")
     fun setSource(view: VideoView, source: ReadableMap) {
         view.url = source.toHashMap()["url"] as? String
+        view.videoId = "6031901107001"
     }
 
     @ReactProp(name = "credentials")
