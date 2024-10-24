@@ -19,14 +19,14 @@ class VideoViewManager: SimpleViewManager<VideoView>() {
 
     @ReactProp(name = "source")
     fun setSource(view: VideoView, source: ReadableMap) {
-        view.url = source.toHashMap()["url"] as? String
-        view.videoId = "6031901107001"
+        // view.url = source.toHashMap()["url"] as? String
+        // view.videoId = "6031901107001"
     }
 
     @ReactProp(name = "credentials")
     fun setCredentials(view: VideoView, source: ReadableMap) {
-        view.accountId = source.toHashMap()["accountId"] as? String
-        view.policyKey = source.toHashMap()["policyKey"] as? String
+        // view.accountId = source.toHashMap()["accountId"] as? String
+        // view.policyKey = source.toHashMap()["policyKey"] as? String
     }
 
     companion object {
