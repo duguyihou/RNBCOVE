@@ -27,6 +27,8 @@
 -dontwarn io.requery.android.QueryLoader
 -dontwarn io.requery.android.QueryRecyclerAdapter
 
+-keep class com.brightcove.** { *; }
+
 -keep public class com.brightcove.player.** {
     public *;
 }
